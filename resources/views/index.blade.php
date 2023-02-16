@@ -9,6 +9,6 @@
 		@vite('resources/js/app.js')
 	</head>
 	<body>
-		
+		@include('partials.series')
 	</body>
 </html>
