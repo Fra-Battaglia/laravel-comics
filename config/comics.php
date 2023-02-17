@@ -215,5 +215,48 @@ return [
             ],
         ],
     ],
+
+    "pages" => [
+        [
+            "voice" => 'CHACRACTERS',
+            "active" => false
+        ],
+        [
+            "voice" => 'COMICS',
+            "active" => true
+        ],
+        [
+            "voice" => 'MOVIES',
+            "active" => false
+        ],
+        [
+            "voice" => 'TV',
+            "active" => false
+        ],
+        [
+            "voice" => 'GAMES',
+            "active" => false
+        ],
+        [
+            "voice" => 'COLLECTIBLES',
+            "active" => false
+        ],
+        [
+            "voice" => 'VIDEOS',
+            "active" => false
+        ],
+        [
+            "voice" => 'FANS',
+            "active" => false
+        ],
+        [
+            "voice" => 'NEWS',
+            "active" => false
+        ],
+        [
+            "voice" => 'SHOP',
+            "active" => false
+        ],
+    ]
 ];
 

@@ -12,7 +12,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: $dark-color;
-	font-size: 14px;
 }
 
 ul {
@@ -23,14 +22,37 @@ a {
 	text-decoration: none;
 }
 
+// header
+
+header {
+	nav {
+		li {
+			a {
+				color: $dark-color;
+			}
+		}
+
+		.nav-voice:hover {
+			a {
+				color: $primary-color;
+			}
+			border-top: 5px solid transparent;
+			border-bottom: 5px solid $primary-color;
+		}
+	}
+}
+
 // series
+
+.series {
+	font-size: 14px;
+}
 
 .title-label {
 	position: absolute;
 	transform: translateY(-50%);
 	background-color: $primary-color;
 	padding: 0.5em 1em;
-	left: -1em;
 	top: 0;
 }
 
