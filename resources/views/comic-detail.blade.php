@@ -27,7 +27,7 @@
 						</div>
 						<div class="col-4">
 							<div class="text-end fw-bold my-text-grey">ADVERTISEMENT</div>
-							<img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="" class="w-100">
+							<a href="#"><img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="" class="w-100"></a>
 						</div>
 					</div>
 				</div>
