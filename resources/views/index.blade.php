@@ -1,4 +1,4 @@
-@extends('templates.app')
+@extends('layouts.app')
 
 @section('content')
 	@include('partials.series')
